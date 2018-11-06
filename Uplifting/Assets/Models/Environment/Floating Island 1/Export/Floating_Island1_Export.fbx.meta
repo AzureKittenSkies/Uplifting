@@ -1,0 +1,707 @@
+fileFormatVersion: 2
+guid: 7b4c86e1d738e52499f740d45294e85a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: areaLight1
+    100002: areaLight2
+    100004: bolder1
+    100006: bolder1 1
+    100008: bolder10
+    100010: bolder11
+    100012: bolder12
+    100014: bolder13
+    100016: bolder14
+    100018: bolder15
+    100020: bolder16
+    100022: bolder17
+    100024: bolder2
+    100026: bolder3
+    100028: bolder4
+    100030: bolder7
+    100032: bolder8
+    100034: bolder9
+    100036: Cloud_Group
+    100038: emitter1
+    100040: emitter2
+    100042: Fence
+    100044: Fence_Plank1
+    100046: Fence_Plank2
+    100048: Fence_Plank3
+    100050: Fence_Plank4
+    100052: Fence_Pole
+    100054: Fence_Pole1
+    100056: Fence_Pole2
+    100058: Fence_Pole3
+    100060: Fire1
+    100062: Fire2
+    100064: Fire3
+    100066: Fire4
+    100068: Fire5
+    100070: Fire6
+    100072: Fire_AreaLight
+    100074: Fire_Pit_Wood
+    100076: FireWood
+    100078: FireWood1
+    100080: FireWood10
+    100082: FireWood11
+    100084: FireWood2
+    100086: FireWood3
+    100088: FireWood4
+    100090: FireWood5
+    100092: FireWood6
+    100094: FireWood7
+    100096: FireWood8
+    100098: FireWood9
+    100100: //RootNode
+    100102: Island
+    100104: LogBranch1
+    100106: Peg1
+    100108: Peg2
+    100110: Peg3
+    100112: Peg4
+    100114: Peg5
+    100116: Peg6
+    100118: Pine_tree_Snow:Pinetree_snow
+    100120: Rocks1
+    100122: Snow1
+    100124: Snow1 1
+    100126: Snow10
+    100128: Snow10 1
+    100130: Snow11
+    100132: Snow11 1
+    100134: Snow12
+    100136: Snow12 1
+    100138: Snow13
+    100140: Snow13 1
+    100142: Snow14
+    100144: Snow15
+    100146: Snow15 1
+    100148: Snow16
+    100150: Snow16 1
+    100152: Snow17
+    100154: Snow17 1
+    100156: Snow18
+    100158: Snow18 1
+    100160: Snow19
+    100162: Snow2
+    100164: Snow2 1
+    100166: Snow20
+    100168: Snow21
+    100170: Snow22
+    100172: Snow23
+    100174: Snow24
+    100176: Snow25
+    100178: Snow26
+    100180: Snow27
+    100182: Snow28
+    100184: Snow29
+    100186: Snow3
+    100188: Snow3 1
+    100190: Snow30
+    100192: Snow31
+    100194: Snow32
+    100196: Snow33
+    100198: Snow34
+    100200: Snow35
+    100202: Snow36
+    100204: Snow37
+    100206: Snow38
+    100208: Snow4
+    100210: Snow4 1
+    100212: Snow5
+    100214: Snow5 1
+    100216: Snow6
+    100218: Snow7
+    100220: Snow8
+    100222: Snow8 1
+    100224: Snow9
+    100226: Snow9 1
+    100228: Snow_Group
+    100230: Snow_Group1
+    100232: Tent
+    100234: Tent 1
+    100236: Tent_line1
+    100238: Tent_line2
+    100240: Tent_Line3
+    100242: Tent_Line4
+    100244: Tent_line5
+    100246: Tent_Line6
+    100248: Tent_Pole1
+    100250: Tent_Pole2
+    100252: Tree_branch_Snow:Tree_Branch_Snow
+    100254: Tree_branch_Snow:Tree_Branch_snow
+    100256: turbulenceField1
+    400000: areaLight1
+    400002: areaLight2
+    400004: bolder1
+    400006: bolder1 1
+    400008: bolder10
+    400010: bolder11
+    400012: bolder12
+    400014: bolder13
+    400016: bolder14
+    400018: bolder15
+    400020: bolder16
+    400022: bolder17
+    400024: bolder2
+    400026: bolder3
+    400028: bolder4
+    400030: bolder7
+    400032: bolder8
+    400034: bolder9
+    400036: Cloud_Group
+    400038: emitter1
+    400040: emitter2
+    400042: Fence
+    400044: Fence_Plank1
+    400046: Fence_Plank2
+    400048: Fence_Plank3
+    400050: Fence_Plank4
+    400052: Fence_Pole
+    400054: Fence_Pole1
+    400056: Fence_Pole2
+    400058: Fence_Pole3
+    400060: Fire1
+    400062: Fire2
+    400064: Fire3
+    400066: Fire4
+    400068: Fire5
+    400070: Fire6
+    400072: Fire_AreaLight
+    400074: Fire_Pit_Wood
+    400076: FireWood
+    400078: FireWood1
+    400080: FireWood10
+    400082: FireWood11
+    400084: FireWood2
+    400086: FireWood3
+    400088: FireWood4
+    400090: FireWood5
+    400092: FireWood6
+    400094: FireWood7
+    400096: FireWood8
+    400098: FireWood9
+    400100: //RootNode
+    400102: Island
+    400104: LogBranch1
+    400106: Peg1
+    400108: Peg2
+    400110: Peg3
+    400112: Peg4
+    400114: Peg5
+    400116: Peg6
+    400118: Pine_tree_Snow:Pinetree_snow
+    400120: Rocks1
+    400122: Snow1
+    400124: Snow1 1
+    400126: Snow10
+    400128: Snow10 1
+    400130: Snow11
+    400132: Snow11 1
+    400134: Snow12
+    400136: Snow12 1
+    400138: Snow13
+    400140: Snow13 1
+    400142: Snow14
+    400144: Snow15
+    400146: Snow15 1
+    400148: Snow16
+    400150: Snow16 1
+    400152: Snow17
+    400154: Snow17 1
+    400156: Snow18
+    400158: Snow18 1
+    400160: Snow19
+    400162: Snow2
+    400164: Snow2 1
+    400166: Snow20
+    400168: Snow21
+    400170: Snow22
+    400172: Snow23
+    400174: Snow24
+    400176: Snow25
+    400178: Snow26
+    400180: Snow27
+    400182: Snow28
+    400184: Snow29
+    400186: Snow3
+    400188: Snow3 1
+    400190: Snow30
+    400192: Snow31
+    400194: Snow32
+    400196: Snow33
+    400198: Snow34
+    400200: Snow35
+    400202: Snow36
+    400204: Snow37
+    400206: Snow38
+    400208: Snow4
+    400210: Snow4 1
+    400212: Snow5
+    400214: Snow5 1
+    400216: Snow6
+    400218: Snow7
+    400220: Snow8
+    400222: Snow8 1
+    400224: Snow9
+    400226: Snow9 1
+    400228: Snow_Group
+    400230: Snow_Group1
+    400232: Tent
+    400234: Tent 1
+    400236: Tent_line1
+    400238: Tent_line2
+    400240: Tent_Line3
+    400242: Tent_Line4
+    400244: Tent_line5
+    400246: Tent_Line6
+    400248: Tent_Pole1
+    400250: Tent_Pole2
+    400252: Tree_branch_Snow:Tree_Branch_Snow
+    400254: Tree_branch_Snow:Tree_Branch_snow
+    400256: turbulenceField1
+    2100000: Mountains
+    2100002: Snow
+    2100004: Water
+    2100006: lambert1
+    2100008: Rocks
+    2100010: Tent_lines
+    2100012: Tent_PEgs
+    2100014: Tent1
+    2100016: FireWood12
+    2100018: Fire
+    2100020: Tree_Bark
+    2100022: Pine_tree_Snow_blinn1
+    2100024: Pine_tree_Snow_blinn2
+    2100026: Pine_tree_Snow_Snow
+    2100028: Tree_branch_Snow_blinn2
+    2100030: Tree_branch_Snow_Snow
+    2300000: bolder1
+    2300002: bolder1 1
+    2300004: bolder10
+    2300006: bolder11
+    2300008: bolder12
+    2300010: bolder13
+    2300012: bolder14
+    2300014: bolder15
+    2300016: bolder16
+    2300018: bolder17
+    2300020: bolder2
+    2300022: bolder3
+    2300024: bolder4
+    2300026: bolder7
+    2300028: bolder8
+    2300030: bolder9
+    2300032: Fence_Plank1
+    2300034: Fence_Plank2
+    2300036: Fence_Plank3
+    2300038: Fence_Plank4
+    2300040: Fence_Pole
+    2300042: Fence_Pole1
+    2300044: Fence_Pole2
+    2300046: Fence_Pole3
+    2300048: Fire1
+    2300050: Fire2
+    2300052: Fire3
+    2300054: Fire4
+    2300056: Fire5
+    2300058: Fire6
+    2300060: FireWood
+    2300062: FireWood1
+    2300064: FireWood10
+    2300066: FireWood11
+    2300068: FireWood2
+    2300070: FireWood3
+    2300072: FireWood4
+    2300074: FireWood5
+    2300076: FireWood6
+    2300078: FireWood7
+    2300080: FireWood8
+    2300082: FireWood9
+    2300084: Island
+    2300086: LogBranch1
+    2300088: Peg1
+    2300090: Peg2
+    2300092: Peg3
+    2300094: Peg4
+    2300096: Peg5
+    2300098: Peg6
+    2300100: Pine_tree_Snow:Pinetree_snow
+    2300102: Snow1
+    2300104: Snow1 1
+    2300106: Snow10
+    2300108: Snow10 1
+    2300110: Snow11
+    2300112: Snow11 1
+    2300114: Snow12
+    2300116: Snow12 1
+    2300118: Snow13
+    2300120: Snow13 1
+    2300122: Snow14
+    2300124: Snow15
+    2300126: Snow15 1
+    2300128: Snow16
+    2300130: Snow16 1
+    2300132: Snow17
+    2300134: Snow17 1
+    2300136: Snow18
+    2300138: Snow18 1
+    2300140: Snow19
+    2300142: Snow2
+    2300144: Snow2 1
+    2300146: Snow20
+    2300148: Snow21
+    2300150: Snow22
+    2300152: Snow23
+    2300154: Snow24
+    2300156: Snow25
+    2300158: Snow26
+    2300160: Snow27
+    2300162: Snow28
+    2300164: Snow29
+    2300166: Snow3
+    2300168: Snow3 1
+    2300170: Snow30
+    2300172: Snow31
+    2300174: Snow32
+    2300176: Snow33
+    2300178: Snow34
+    2300180: Snow35
+    2300182: Snow36
+    2300184: Snow37
+    2300186: Snow38
+    2300188: Snow4
+    2300190: Snow4 1
+    2300192: Snow5
+    2300194: Snow5 1
+    2300196: Snow6
+    2300198: Snow7
+    2300200: Snow8
+    2300202: Snow8 1
+    2300204: Snow9
+    2300206: Snow9 1
+    2300208: Tent 1
+    2300210: Tent_line1
+    2300212: Tent_line2
+    2300214: Tent_Line3
+    2300216: Tent_Line4
+    2300218: Tent_line5
+    2300220: Tent_Line6
+    2300222: Tent_Pole1
+    2300224: Tent_Pole2
+    2300226: Tree_branch_Snow:Tree_Branch_snow
+    3300000: bolder1
+    3300002: bolder1 1
+    3300004: bolder10
+    3300006: bolder11
+    3300008: bolder12
+    3300010: bolder13
+    3300012: bolder14
+    3300014: bolder15
+    3300016: bolder16
+    3300018: bolder17
+    3300020: bolder2
+    3300022: bolder3
+    3300024: bolder4
+    3300026: bolder7
+    3300028: bolder8
+    3300030: bolder9
+    3300032: Fence_Plank1
+    3300034: Fence_Plank2
+    3300036: Fence_Plank3
+    3300038: Fence_Plank4
+    3300040: Fence_Pole
+    3300042: Fence_Pole1
+    3300044: Fence_Pole2
+    3300046: Fence_Pole3
+    3300048: Fire1
+    3300050: Fire2
+    3300052: Fire3
+    3300054: Fire4
+    3300056: Fire5
+    3300058: Fire6
+    3300060: FireWood
+    3300062: FireWood1
+    3300064: FireWood10
+    3300066: FireWood11
+    3300068: FireWood2
+    3300070: FireWood3
+    3300072: FireWood4
+    3300074: FireWood5
+    3300076: FireWood6
+    3300078: FireWood7
+    3300080: FireWood8
+    3300082: FireWood9
+    3300084: Island
+    3300086: LogBranch1
+    3300088: Peg1
+    3300090: Peg2
+    3300092: Peg3
+    3300094: Peg4
+    3300096: Peg5
+    3300098: Peg6
+    3300100: Pine_tree_Snow:Pinetree_snow
+    3300102: Snow1
+    3300104: Snow1 1
+    3300106: Snow10
+    3300108: Snow10 1
+    3300110: Snow11
+    3300112: Snow11 1
+    3300114: Snow12
+    3300116: Snow12 1
+    3300118: Snow13
+    3300120: Snow13 1
+    3300122: Snow14
+    3300124: Snow15
+    3300126: Snow15 1
+    3300128: Snow16
+    3300130: Snow16 1
+    3300132: Snow17
+    3300134: Snow17 1
+    3300136: Snow18
+    3300138: Snow18 1
+    3300140: Snow19
+    3300142: Snow2
+    3300144: Snow2 1
+    3300146: Snow20
+    3300148: Snow21
+    3300150: Snow22
+    3300152: Snow23
+    3300154: Snow24
+    3300156: Snow25
+    3300158: Snow26
+    3300160: Snow27
+    3300162: Snow28
+    3300164: Snow29
+    3300166: Snow3
+    3300168: Snow3 1
+    3300170: Snow30
+    3300172: Snow31
+    3300174: Snow32
+    3300176: Snow33
+    3300178: Snow34
+    3300180: Snow35
+    3300182: Snow36
+    3300184: Snow37
+    3300186: Snow38
+    3300188: Snow4
+    3300190: Snow4 1
+    3300192: Snow5
+    3300194: Snow5 1
+    3300196: Snow6
+    3300198: Snow7
+    3300200: Snow8
+    3300202: Snow8 1
+    3300204: Snow9
+    3300206: Snow9 1
+    3300208: Tent 1
+    3300210: Tent_line1
+    3300212: Tent_line2
+    3300214: Tent_Line3
+    3300216: Tent_Line4
+    3300218: Tent_line5
+    3300220: Tent_Line6
+    3300222: Tent_Pole1
+    3300224: Tent_Pole2
+    3300226: Tree_branch_Snow:Tree_Branch_snow
+    4300000: Island
+    4300002: bolder1
+    4300004: bolder2
+    4300006: bolder3
+    4300008: bolder4
+    4300010: Tent_Line6
+    4300012: Tent_line5
+    4300014: Tent_Line4
+    4300016: Tent_Line3
+    4300018: Peg6
+    4300020: Peg5
+    4300022: Tent_line2
+    4300024: Peg4
+    4300026: Peg3
+    4300028: Peg2
+    4300030: Tent_line1
+    4300032: Peg1
+    4300034: Tent
+    4300036: Tent_Pole2
+    4300038: Tent_Pole1
+    4300040: bolder1
+    4300042: bolder7
+    4300044: bolder8
+    4300046: bolder9
+    4300048: Snow1
+    4300050: Snow2
+    4300052: Snow3
+    4300054: Snow4
+    4300056: Snow5
+    4300058: Snow8
+    4300060: Snow9
+    4300062: Snow10
+    4300064: Snow11
+    4300066: Snow12
+    4300068: Snow13
+    4300070: Snow15
+    4300072: Snow16
+    4300074: Snow17
+    4300076: Snow18
+    4300078: Snow20
+    4300080: Snow21
+    4300082: Snow22
+    4300084: Snow23
+    4300086: Snow24
+    4300088: Snow25
+    4300090: Snow26
+    4300092: Snow27
+    4300094: Snow28
+    4300096: Snow29
+    4300098: Snow30
+    4300100: Snow31
+    4300102: Snow32
+    4300104: Snow33
+    4300106: Snow34
+    4300108: Snow35
+    4300110: Snow36
+    4300112: Snow37
+    4300114: Snow38
+    4300116: Snow1
+    4300118: Snow2
+    4300120: Snow3
+    4300122: Snow4
+    4300124: Snow5
+    4300126: Snow6
+    4300128: Snow7
+    4300130: Snow8
+    4300132: Snow9
+    4300134: Snow10
+    4300136: Snow11
+    4300138: Snow12
+    4300140: Snow13
+    4300142: Snow14
+    4300144: Snow15
+    4300146: Snow16
+    4300148: Snow17
+    4300150: Snow18
+    4300152: Snow19
+    4300154: Fence_Plank1
+    4300156: Fence_Pole
+    4300158: Fence_Pole1
+    4300160: Fence_Plank2
+    4300162: Fence_Pole2
+    4300164: Fence_Plank3
+    4300166: Fence_Pole3
+    4300168: Fence_Plank4
+    4300170: FireWood
+    4300172: FireWood1
+    4300174: FireWood2
+    4300176: FireWood3
+    4300178: FireWood4
+    4300180: FireWood5
+    4300182: FireWood6
+    4300184: FireWood7
+    4300186: FireWood8
+    4300188: FireWood9
+    4300190: FireWood10
+    4300192: FireWood11
+    4300194: bolder12
+    4300196: bolder13
+    4300198: bolder11
+    4300200: bolder10
+    4300202: bolder17
+    4300204: bolder15
+    4300206: bolder14
+    4300208: bolder16
+    4300210: Fire6
+    4300212: Fire5
+    4300214: Fire4
+    4300216: Fire3
+    4300218: Fire2
+    4300220: Fire1
+    4300222: LogBranch1
+    4300224: Pine_tree_Snow:Pinetree_snow
+    4300226: Tree_branch_Snow:Tree_Branch_snow
+    10800000: areaLight1
+    10800002: areaLight2
+    10800004: Fire_AreaLight
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
