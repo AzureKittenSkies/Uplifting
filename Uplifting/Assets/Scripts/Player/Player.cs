@@ -25,6 +25,12 @@ namespace Uplifting
 
         #endregion
 
+        #region Pickups
+
+        public int collected;
+
+
+        #endregion
 
         #region Camera
         public Transform cam;

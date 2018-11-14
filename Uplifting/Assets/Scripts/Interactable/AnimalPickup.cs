@@ -11,8 +11,18 @@ namespace Uplifting
         public ParticleSystem particlesDisappear;
         #endregion
 
-
+        public Player playerScript;
         public GameObject playerObject;
+
+        public MemoryDialogue memory;
+
+        public string thisTag;
+
+        private void Start()
+        {
+            thisTag = this.gameObject.tag;
+        }
+
 
         private void OnTriggerStay(Collider other)
         {
@@ -21,7 +31,19 @@ namespace Uplifting
                 playerObject = other.gameObject;
                 if (Input.GetKeyDown(KeyCode.Mouse0))
                 {
-                    
+                    switch (thisTag)
+                    {
+                        case "Butterfly":
+                            playerScript.collected++;
+                            break;
+                        //case "Memory":                                    
+                        //  
+
+                        default:
+                            break;
+                    }
+
+
                 }        
             }
         }
