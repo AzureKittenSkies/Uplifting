@@ -62,6 +62,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Camera\Orbit.cs" />
+    <Compile Include="Assets\Scripts\Killbox.cs" />
+    <Compile Include="Assets\Scripts\Pickup\AnimalPickup.cs" />
     <Compile Include="Assets\Scripts\Player\Player.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerInput.cs" />
     <Reference Include="UnityEditor.StandardEvents">
