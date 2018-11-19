@@ -65,19 +65,22 @@
     <Compile Include="Assets\Scripts\Interactable\AnimalPickup.cs" />
     <Compile Include="Assets\Scripts\Interactable\MemoryDialogue.cs" />
     <Compile Include="Assets\Scripts\Killbox.cs" />
+    <Compile Include="Assets\Scripts\Menu\CanvasMenu.cs" />
+    <Compile Include="Assets\Scripts\Menu\HardcodeMenu.cs" />
+    <Compile Include="Assets\Scripts\Network\NetworkPlayerInput.cs" />
     <Compile Include="Assets\Scripts\Player\Player.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerInput.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/aaron.hayman4/Documents/GitHub/Uplifting/Uplifting/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/aaron.hayman4/Documents/Repos/Uplifting/Uplifting/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/aaron.hayman4/Documents/GitHub/Uplifting/Uplifting/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/aaron.hayman4/Documents/Repos/Uplifting/Uplifting/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/aaron.hayman4/Documents/GitHub/Uplifting/Uplifting/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/aaron.hayman4/Documents/Repos/Uplifting/Uplifting/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/aaron.hayman4/Documents/GitHub/Uplifting/Uplifting/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/aaron.hayman4/Documents/Repos/Uplifting/Uplifting/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
