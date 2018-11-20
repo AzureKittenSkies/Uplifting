@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Uplifting
 {
-    public class ButterflyPickup : MonoBehaviour
+    public class AnimalPickup : MonoBehaviour
     {
         #region Particle System
         public ParticleSystem particlesToPlayer;
@@ -13,10 +13,19 @@ namespace Uplifting
 
         public Player playerScript;
         public GameObject playerObject;
+        public GameObject animalObject;
 
         public MemoryDialogue memory;
 
+        public string[] thisText;
+
         public string thisTag;
+
+        public bool collected = false;
+
+
+
+
 
         private void Start()
         {
@@ -24,26 +33,27 @@ namespace Uplifting
         }
 
 
+        private void OnTriggerEnter(Collider other)
+        {
+            memory.animalPickupScript = this;
+
+            memory.text = new string[thisText.Length];
+            memory.text = thisText;
+
+
+        }
+
         private void OnTriggerStay(Collider other)
         {
-            if (other.CompareTag("Player"))
+            if (other.CompareTag("Player") && !collected)
             {
                 playerObject = other.gameObject;
-                if (Input.GetKeyDown(KeyCode.Mouse0))
+                if (Input.GetKeyDown(KeyCode.Mouse0) && collected)
                 {
-                    switch (thisTag)
-                    {
-                        case "Butterfly":
-                            playerScript.collected++;
-                            break;
-                        //case "Memory":                                    
-                        //  
 
-                        default:
-                            break;
-                    }
-
-
+                    animalObject.SetActive(false);
+                    Collected();
+                    collected = true;
                 }        
             }
         }

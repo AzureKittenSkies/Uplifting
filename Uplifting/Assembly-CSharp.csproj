@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Camera\Orbit.cs" />
     <Compile Include="Assets\Scripts\Interactable\AnimalPickup.cs" />
+    <Compile Include="Assets\Scripts\Interactable\ButterflyPickup.cs" />
     <Compile Include="Assets\Scripts\Interactable\MemoryDialogue.cs" />
     <Compile Include="Assets\Scripts\Killbox.cs" />
     <Compile Include="Assets\Scripts\Menu\CanvasMenu.cs" />
