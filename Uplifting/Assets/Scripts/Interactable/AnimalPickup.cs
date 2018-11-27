@@ -19,7 +19,6 @@ namespace Uplifting
 
         public string[] thisText;
 
-        public string thisTag;
 
         public bool collected = false;
 
@@ -27,14 +26,9 @@ namespace Uplifting
 
 
 
-        private void Start()
-        {
-            thisTag = this.gameObject.tag;
-        }
-
-
         private void OnTriggerEnter(Collider other)
         {
+            memory = other.GetComponent<MemoryDialogue>();
             memory.animalPickupScript = this;
 
             memory.text = new string[thisText.Length];
@@ -48,11 +42,11 @@ namespace Uplifting
             if (other.CompareTag("Player") && !collected)
             {
                 playerObject = other.gameObject;
+                playerScript = playerObject.GetComponent<Player>();
                 if (Input.GetKeyDown(KeyCode.Mouse0) && collected)
                 {
-
-                    animalObject.SetActive(false);
                     Collected();
+                    animalObject.SetActive(false);
                     collected = true;
                 }        
             }

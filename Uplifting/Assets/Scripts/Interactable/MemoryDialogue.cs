@@ -12,10 +12,12 @@ namespace Uplifting
         public int index;//this is where we are at in the dialogue
         public bool showDlg, canShowDlg = true;//shows our dialogue
 
-        public Text dialogueBox;
+        public Image dialogueBox;
+        public Text dialogueText;
         public Button next;
         public Button exit;
 
+        public Player playerScript;
         public AnimalPickup animalPickupScript;
 
 
@@ -29,6 +31,7 @@ namespace Uplifting
             canShowDlg = false;
             showDlg = false;
             animalPickupScript.collected = true;
+            playerScript.collected++;
 
         }
 
@@ -37,7 +40,8 @@ namespace Uplifting
         {
             if (showDlg)
             {
-                dialogueBox.text = text[index];
+                dialogueBox.gameObject.SetActive(true);
+                //dialogueText.text = text[index];
                 if ((index + 1 >= text.Length))
                 {
                     next.gameObject.SetActive(false);
