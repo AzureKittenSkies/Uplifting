@@ -38,7 +38,7 @@ namespace Uplifting
 
         public void Update()
         {
-            if (showDlg)
+            if (showDlg && dialogueBox.gameObject != null)
             {
                 dialogueBox.gameObject.SetActive(true);
                 //dialogueText.text = text[index];

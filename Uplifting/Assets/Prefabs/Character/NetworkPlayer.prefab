@@ -306,8 +306,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   jumpSpeed: 2.5
-  controller: {fileID: 143052200502543180}
+  controller: {fileID: 143052200502543180, guid: fed091e3bbfd2a54cb7a03ca80fca3a6,
+    type: 2}
+  holdPlayerMove: 0
+  memoryScript: {fileID: 0}
   jump: 32
+  playerModels:
+  - {fileID: 1694406076149040, guid: fed091e3bbfd2a54cb7a03ca80fca3a6, type: 2}
+  - {fileID: 1388666375496746, guid: fed091e3bbfd2a54cb7a03ca80fca3a6, type: 2}
+  - {fileID: 0}
   collected: 0
   cam: {fileID: 4419686893272756}
 --- !u!114 &114563278989689942
@@ -406,7 +413,7 @@ MonoBehaviour:
     i14: 213
     i15: 136
   m_ServerOnly: 0
-  m_LocalPlayerAuthority: 0
+  m_LocalPlayerAuthority: 1
 --- !u!137 &137496340437782498
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
