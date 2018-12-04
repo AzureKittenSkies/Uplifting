@@ -24,7 +24,13 @@ namespace Uplifting
 
 
 
-
+        private void Update()
+        {
+            if (collected)
+            {
+                Collected();
+            }
+        }
 
         private void OnTriggerEnter(Collider other)
         {
@@ -43,11 +49,9 @@ namespace Uplifting
             {
                 playerObject = other.gameObject;
                 playerScript = playerObject.GetComponent<Player>();
-                if (Input.GetKeyDown(KeyCode.Mouse0) && collected)
+                if (Input.GetKeyDown(KeyCode.E))
                 {
-                    Collected();
                     animalObject.SetActive(false);
-                    collected = true;
                 }        
             }
         }
@@ -57,7 +61,7 @@ namespace Uplifting
             particlesToPlayer.transform.LookAt(playerObject.transform, transform.up);
             particlesToPlayer.Play();
             particlesDisappear.Play();
-
+            playerScript.collected++;
         }
 
 

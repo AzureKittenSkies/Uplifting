@@ -38,10 +38,11 @@ namespace Uplifting
 
         public void Update()
         {
-            if (showDlg && dialogueBox.gameObject != null)
+
+            if (showDlg && animalPickupScript != null)
             {
-                dialogueBox.gameObject.SetActive(true);
                 //dialogueText.text = text[index];
+                dialogueBox.gameObject.SetActive(true);
                 if ((index + 1 >= text.Length))
                 {
                     next.gameObject.SetActive(false);

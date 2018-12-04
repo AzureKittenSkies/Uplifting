@@ -56,16 +56,19 @@ namespace Uplifting
                     playerModels[0].SetActive(true);
                     playerModels[1].SetActive(false);
                     //playerModels[2].SetActive(false);
+                    jumpSpeed = 2.5f;
                     break;
                 case 1:
                     playerModels[0].SetActive(false);
                     playerModels[1].SetActive(true);
                     //playerModels[2].SetActive(false);
+                    jumpSpeed = 5f;
                     break;
                 case 2:
                     playerModels[0].SetActive(false);
                     playerModels[1].SetActive(false);
                     //playerModels[2].SetActive(true);
+                    jumpSpeed = 7.5f;
                     break;
                 default:
                     break;
