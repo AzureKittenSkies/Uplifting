@@ -52,6 +52,7 @@ namespace Uplifting
                 if (Input.GetKeyDown(KeyCode.E))
                 {
                     animalObject.SetActive(false);
+                    collected = true;
                 }        
             }
         }
@@ -62,6 +63,7 @@ namespace Uplifting
             particlesToPlayer.Play();
             particlesDisappear.Play();
             playerScript.collected++;
+            
         }
 
 

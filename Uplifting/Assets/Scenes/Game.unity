@@ -690,7 +690,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1388666375496746, guid: fed091e3bbfd2a54cb7a03ca80fca3a6, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114128789083891396, guid: fed091e3bbfd2a54cb7a03ca80fca3a6,
         type: 2}
@@ -756,6 +756,10 @@ Prefab:
       propertyPath: playerScript
       value: 
       objectReference: {fileID: 1900634428}
+    - target: {fileID: 1694406076149040, guid: fed091e3bbfd2a54cb7a03ca80fca3a6, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fed091e3bbfd2a54cb7a03ca80fca3a6, type: 2}
   m_IsPrefabAsset: 0
